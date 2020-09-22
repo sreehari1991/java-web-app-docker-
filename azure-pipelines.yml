@@ -1,4 +1,4 @@
-# Docker
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -10,6 +10,7 @@
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+# Docker
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
