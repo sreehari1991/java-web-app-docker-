@@ -98,6 +98,19 @@
 
 	</dependencies>
 	
+     <distributionManagement>
+	<repository>
+           <id>central</id>
+           <name>ip-172-31-7-73-releases</name>
+           <url>http://3.109.55.17:8082/artifactory/Jenkins_job</url>
+        </repository>
+        <snapshotRepository>
+           <id>snapshots</id>
+           <name>ip-172-31-7-73-snapshots</name>
+           <url>http://http://3.109.55.17:8082/artifactory/Jenkins_job</url>
+        </snapshotRepository>
+     </distributionManagement>
+	
 	<!-- <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
