@@ -97,8 +97,21 @@
 		</dependency>
 
 	</dependencies>
+
+	<distributionManagement>
+	    <repository>
+        	<id>central</id>
+        	<name>a0glx7qyetsgo-artifactory-primary-0-releases</name>
+        	<url>https://devopsdemo5.jfrog.io/artifactory/devops5</url>
+    	    </repository>
+    	    <snapshotRepository>
+        	<id>snapshots</id>
+        	<name>a0glx7qyetsgo-artifactory-primary-0-snapshots</name>
+        	<url>https://devopsdemo5.jfrog.io/artifactory/devops5</url>
+    	    </snapshotRepository>
+	</distributionManagement>
 	
-     <distributionManagement>
+	<!--<distributionManagement>
 	<repository>
            <id>central</id>
            <name>ip-172-31-7-73-releases</name>
@@ -109,7 +122,7 @@
            <name>ip-172-31-7-73-snapshots</name>
            <url>http://http://3.109.55.17:8082/artifactory/Jenkins_job</url>
         </snapshotRepository>
-     </distributionManagement>
+	</distributionManagement>-->
 	
 	<!-- <distributionManagement>
 	    <repository>
