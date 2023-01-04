@@ -1,0 +1,12 @@
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0glx7qyetsgo-artifactory-primary-0-releases</name>
+        <url>https://devopsdemo5.jfrog.io/artifactory/devops5</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0glx7qyetsgo-artifactory-primary-0-snapshots</name>
+        <url>https://devopsdemo5.jfrog.io/artifactory/devops5</url>
+    </snapshotRepository>
+</distributionManagement>
